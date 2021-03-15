@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnconfirm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.admin.detection.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Detection"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="42dp"
+            android:layout_toStartOf="@+id/textView"
+            android:onClick="bck_Click"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/ic_camera_alt_black_24dp" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btn_confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/rounded_bttn"
+        android:text="UPLOAD"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:enabled="false"
+        android:onClick="onConfirm"
+        android:text="Click here to see the result"
+        android:textSize="15dp"
+        />
+
+</RelativeLayout>

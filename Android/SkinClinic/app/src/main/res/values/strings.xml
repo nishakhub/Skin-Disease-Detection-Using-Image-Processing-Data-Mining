@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SkinClinic</string>
+    <string name="name1">IMPETIGO</string>
+    <string name="name2">MELANOMA</string>
+    <string name="name3">ECZEMA</string>
+    <string name="name4">Skin Clinic is a Skin Disease Detection App. It deals with the three most common skin diseases which are
+                Impetigo, Melanoma, Eczema. This app will allow the human to detect the skin disease. Also it tends to provide
+                almost accurate results where multiple users can access it nearly at no cost. Thus our mission is to help people
+                recognize early detection of skin disease.</string>
+    <string name="name5">Get in Touch</string>
+    <string name="name6">You need more information? Please feel free to contact.</string>
+    <string name="name7">+91 7378 678 020</string>
+    <string name="name8">Mon-Fri 9:00am - 10:00pm</string>
+    <string name="name9">harshaachara708@gmail.com</string>
+    <string name="name10">Play the video to get the knowledge about how to use the app.</string>
+
+
+</resources>
